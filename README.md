@@ -1,2 +1,2 @@
-# angular-browserify-gulp-starter
-angular-browserify-gulp-starter
+# angular-browserSync-gulp-starter
+angular-browserSync-gulp-starter
