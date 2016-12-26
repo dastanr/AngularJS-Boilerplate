@@ -1,0 +1,24 @@
+{
+  "name": "angular",
+  "description": "angular-browserify-gulp-starter",
+  "main": "index.js",
+  "authors": [
+    "Dastan Rahimi"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.1",
+    "bootstrap": "v4.0.0-alpha.5",
+    "font-awesome": "^4.7.0",
+    "angular-route": "^1.6.1"
+  }
+}
