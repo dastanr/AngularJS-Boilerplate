@@ -8,6 +8,7 @@ $ git clone https://github.com/dastanr/AngularJS-Boilerplate.git
 $ cd AngularJS-Boilerplate
 $ npm install
 $ bower install
+$ gulp
 ```
 
 ### Features
