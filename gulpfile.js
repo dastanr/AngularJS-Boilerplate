@@ -71,7 +71,7 @@ gulp.task('build-template-cache', ['empty-build'], function () {
         .pipe(templateCache({
             root: 'partials/',
             standalone: true,
-            module: 'PreyScoping.templates'
+            module: 'DS.templates'
         }))
         .pipe(gulp.dest("./build/js"));
 });
@@ -208,7 +208,7 @@ gulp.task('views', ['empty-build'], function () {
         }));
 });
 
-gulp.task('build', ['empty-build', 'build-template-cache', 'views', 'styles', 'VendorJs', 'AppJs', 'icons','images']);
+gulp.task('build', ['empty-build', 'build-template-cache', 'views', 'styles', 'VendorJs', 'AppJs', 'icons']);
 
 gulp.task('watch', function () {
     return gulp.watch(['./index.html', './partials/*.html', './assets/scss/**/*.scss', './assets/js/*.js'], ['build', reload]);
